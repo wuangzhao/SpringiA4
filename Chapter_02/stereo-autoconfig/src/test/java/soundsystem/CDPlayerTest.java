@@ -10,14 +10,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes=CDPlayerConfig.class)
+@RunWith(SpringJUnit4ClassRunner.class)//测试运行器
+@ContextConfiguration(classes=CDPlayerConfig.class)//配置加载
 public class CDPlayerTest {
 
   @Rule
   public final StandardOutputStreamLog log = new StandardOutputStreamLog();
 
-  @Autowired
+  @Autowired//自动装配
   private MediaPlayer player;
   
   @Autowired
@@ -32,7 +32,7 @@ public class CDPlayerTest {
   public void play() {
     player.play();
     assertEquals(
-        "Playing Sgt. Pepper's Lonely Hearts Club Band by The Beatles\n", 
+        "Playing Sgt. Pepper's Lonely Hearts Club Band by The Beatles\n",
         log.getLog());
   }
 
