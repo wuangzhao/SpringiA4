@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="SpringiA4" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/Chapter_07/Spittr/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_05/Spittr/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_06/jsp/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_06/tiles/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_11/jpa-springdata/src/test/resources/spittr/db/jpa/RepositoryTest-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_06/thymeleaf/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/spring/root-config.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_09/thymeleaf/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_05/Spittr/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_16/spitter-api-content-negotiation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_17/amqp/src/main/resources/META-INF/spring/amqp-producer.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_16/spitter-api-content-negotiation/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_06/tiles/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_07/Spittr/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_18/STOMP/src/main/resources/websocket-config.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_03/profiles/src/main/resources/datasource-config.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_11/hibernate4/src/test/resources/spittr/db/hibernate4/RepositoryTest-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_17/amqp/src/main/resources/META-INF/spring/amqp-shared.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_18/WebSocket/src/main/resources/websocket-config.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_10/jdbc/src/test/resources/spittr/db/jdbc/JdbcRepositoryTests-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_17/amqp/src/main/resources/META-INF/spring/amqp-consumer.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_17/jms/src/main/resources/META-INF/spring/messaging.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/spring/services.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_06/jsp/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_16/spitter-api-message-converters/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_06/thymeleaf/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_11/jpa-hibernate/src/test/resources/spittr/db/jpa/RepositoryTest-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/spring/mvc.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_03/scopedbeans/src/main/resources/scoped-beans.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/spring/domain.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/spring/flow.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_03/externals/src/test/resources/placeholder-config.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/spring/dataaccess.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_16/spitter-api-message-converters/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+          <file>file://$MODULE_DIR$/Chapter_09/thymeleaf/src/main/webapp/WEB-INF/spring/root-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/Chapter_08/SpringPizza/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

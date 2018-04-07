@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--Spring将BraveKnight,SlayDragonQuest和PrintStream装配在一起-->
+    <!--在这里，BraveKnight和SlayDragonQuest被神明为Spring中的bean.-->
+    <!--就BraveKnight bean来讲，它在构造时传入了对SlayDragonQuest bean的引用，将其作为构造器的参数-->
+    <!--同时，SlayDragonQuest bean的声明使用了Spring表达式语言，将System.out(这是一PrintStream)传入到了SlayDragonQuest的构造器中-->
+    <bean id="knight" class="sia.knights.BraveKnight">
+        <constructor-arg ref="quest"/><!--注入Quest bean-->
+    </bean>
+
+    <bean id="quest" class="sia.knights.SlayDragonQuest"><!--创建SlayDragonQuest-->
+        <constructor-arg value="#{T(System).out}"/>
+    </bean>
+
+</beans>
