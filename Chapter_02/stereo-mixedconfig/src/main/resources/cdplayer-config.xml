@@ -8,6 +8,9 @@
 
   <bean id="cdPlayer"
         class="soundsystem.CDPlayer"
-        c:cd-ref="compactDisc" />
+        c:cd-ref="compactDisc" /><!--c-命名空间来申明构造器参数-->
+    <!--属性名以"c:"开头，也就是命名空间的前缀。接下来是要装配的构造器参数名-->
+    <!--"-ref"这是一个命名约定，它会告诉Spring, 正在装配的是一个bean的引用-->
+    <!--这个bean的名字是compactDisc而不是字面量"compactDisc"-->
         
 </beans>
