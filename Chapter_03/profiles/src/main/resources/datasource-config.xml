@@ -11,6 +11,7 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <beans profile="dev">
+    <!--dev profile 的 bean-->
     <jdbc:embedded-database id="dataSource" type="H2">
       <jdbc:script location="classpath:schema.sql" />
       <jdbc:script location="classpath:test-data.sql" />
@@ -18,10 +19,13 @@
   </beans>
   
   <beans profile="prod">
+    <!--prod profile 的 bean-->
     <jee:jndi-lookup id="dataSource"
       lazy-init="true"
       jndi-name="jdbc/myDatabase"
       resource-ref="true"
       proxy-interface="javax.sql.DataSource" />
   </beans>
+    <!--这里有两个bean，类似都是同样的，且ID都是dataSource。但是在运行时-->
+    <!--但是在创建时，只会创建一个bean。这取决于激活状态的哪个profile-->
 </beans>

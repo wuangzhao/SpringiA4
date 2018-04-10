@@ -3,8 +3,16 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Eclipse" />
     <bytecodeTargetLevel>
+      <module name="conditional_main" target="1.8" />
+      <module name="conditional_test" target="1.8" />
+      <module name="externals_main" target="1.8" />
+      <module name="externals_test" target="1.8" />
       <module name="knight_main" target="1.8" />
       <module name="knight_test" target="1.8" />
+      <module name="profiles_main" target="1.8" />
+      <module name="profiles_test" target="1.8" />
+      <module name="scopedbeans_main" target="1.8" />
+      <module name="scopedbeans_test" target="1.8" />
       <module name="stereo-autoconfig_main" target="1.8" />
       <module name="stereo-autoconfig_test" target="1.8" />
       <module name="stereo-javaconfig_main" target="1.8" />

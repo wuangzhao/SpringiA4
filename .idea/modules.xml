@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringiA4.iml" filepath="$PROJECT_DIR$/SpringiA4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringiA4.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringiA4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional_main.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional_main.iml" group="conditional" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional_test.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional_test.iml" group="conditional" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externals.iml" filepath="$PROJECT_DIR$/.idea/modules/externals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externals_main.iml" filepath="$PROJECT_DIR$/.idea/modules/externals_main.iml" group="externals" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/externals_test.iml" filepath="$PROJECT_DIR$/.idea/modules/externals_test.iml" group="externals" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knight.iml" filepath="$PROJECT_DIR$/.idea/modules/knight.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knight_main.iml" filepath="$PROJECT_DIR$/.idea/modules/knight_main.iml" group="knight" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knight_test.iml" filepath="$PROJECT_DIR$/.idea/modules/knight_test.iml" group="knight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/profiles.iml" filepath="$PROJECT_DIR$/.idea/modules/profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/profiles_main.iml" filepath="$PROJECT_DIR$/.idea/modules/profiles_main.iml" group="profiles" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/profiles_test.iml" filepath="$PROJECT_DIR$/.idea/modules/profiles_test.iml" group="profiles" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scopedbeans.iml" filepath="$PROJECT_DIR$/.idea/modules/scopedbeans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scopedbeans_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scopedbeans_main.iml" group="scopedbeans" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scopedbeans_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scopedbeans_test.iml" group="scopedbeans" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-autoconfig.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-autoconfig.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-autoconfig_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-autoconfig_main.iml" group="stereo-autoconfig" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-autoconfig_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-autoconfig_test.iml" group="stereo-autoconfig" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-javaconfig.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-javaconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-javaconfig_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-javaconfig_main.iml" group="stereo-javaconfig" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-javaconfig_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-javaconfig_test.iml" group="stereo-javaconfig" />
