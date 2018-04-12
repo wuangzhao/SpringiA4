@@ -8,6 +8,7 @@
 
   <context:property-placeholder
     location="com/soundsystem/app.properties" />
+  <!--注入外部值-->
 
   <bean class="com.soundsystem.BlankDisc"
     c:_0 = "${disc.title}"

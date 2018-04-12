@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 
 @Configuration
-@PropertySource("classpath:/com/soundsystem/app.properties")
+@PropertySource("classpath:/com/soundsystem/app.properties")//注入外部的值
 public class EnvironmentConfig {
 
   @Autowired

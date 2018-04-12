@@ -5,7 +5,7 @@
 
   <bean class="com.myapp.Notepad"
         scope="prototype" />
-  
+  <!--scope设置作用域-->
   <bean class="com.myapp.UniqueThing" />
 
 
