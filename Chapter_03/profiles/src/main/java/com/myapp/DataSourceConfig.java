@@ -18,7 +18,7 @@ public class DataSourceConfig {
   public DataSource embeddedDataSource() {
     return new EmbeddedDatabaseBuilder()
         .setType(EmbeddedDatabaseType.H2)
-        .addScript("classpath:schema.sql")
+        .addScript("classpath:schema.sql")//数据库
         .addScript("classpath:test-data.sql")
         .build();
   }
