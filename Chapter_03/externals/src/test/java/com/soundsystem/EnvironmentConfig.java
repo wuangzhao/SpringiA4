@@ -16,7 +16,7 @@ public class EnvironmentConfig {
   @Bean
   public BlankDisc blankDisc() {
     return new BlankDisc(
-        env.getProperty("disc.title"),
+        env.getProperty("disc.title"),//检索属性，并作为构造器参数
         env.getProperty("disc.artist"));
   }
   
