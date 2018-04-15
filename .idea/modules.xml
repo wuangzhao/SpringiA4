@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scopedbeans_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scopedbeans_main.iml" group="scopedbeans" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scopedbeans_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scopedbeans_test.iml" group="scopedbeans" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-autoconfig.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-autoconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-autoconfig_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-autoconfig_main.iml" group="stereo-autoconfig" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-autoconfig_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-autoconfig_test.iml" group="stereo-autoconfig" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-javaconfig.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-javaconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-javaconfig_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-javaconfig_main.iml" group="stereo-javaconfig" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stereo-javaconfig_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stereo-javaconfig_test.iml" group="stereo-javaconfig" />
