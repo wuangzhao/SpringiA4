@@ -59,6 +59,7 @@ public class ScopedBeanTests {
 
   @RunWith(SpringJUnit4ClassRunner.class)
   @ContextConfiguration("classpath:scoped-beans.xml")
+  //XML配置中不管Java配置中的注解
   public static class XMLConfigScopedBeanTest {
     
     @Autowired

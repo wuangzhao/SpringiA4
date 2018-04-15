@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$/Chapter_01/knight" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -32,6 +33,7 @@
             <option value="$PROJECT_DIR$/Chapter_02/stereo-autoconfig" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -42,6 +44,7 @@
             <option value="$PROJECT_DIR$/Chapter_02/stereo-javaconfig" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -52,6 +55,7 @@
             <option value="$PROJECT_DIR$/Chapter_02/stereo-mixedconfig" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -62,6 +66,7 @@
             <option value="$PROJECT_DIR$/Chapter_02/stereo-xmlconfig" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -72,6 +77,7 @@
             <option value="$PROJECT_DIR$/Chapter_03/conditional" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -82,6 +88,7 @@
             <option value="$PROJECT_DIR$/Chapter_03/externals" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -92,6 +99,7 @@
             <option value="$PROJECT_DIR$/Chapter_03/profiles" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -102,6 +110,7 @@
             <option value="$PROJECT_DIR$/Chapter_03/scopedbeans" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
