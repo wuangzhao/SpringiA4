@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Audience.iml" filepath="$PROJECT_DIR$/.idea/modules/Audience.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Audience_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Audience_main.iml" group="Audience" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Audience_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Audience_test.iml" group="Audience" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringiA4.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringiA4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional_main.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional_main.iml" group="conditional" />

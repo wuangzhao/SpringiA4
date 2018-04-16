@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Eclipse" />
     <bytecodeTargetLevel>
+      <module name="Audience_main" target="1.8" />
+      <module name="Audience_test" target="1.8" />
       <module name="conditional_main" target="1.8" />
       <module name="conditional_test" target="1.8" />
       <module name="externals_main" target="1.8" />
