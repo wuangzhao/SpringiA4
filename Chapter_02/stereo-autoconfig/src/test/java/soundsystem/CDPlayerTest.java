@@ -15,11 +15,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @EnableAspectJAutoProxy
+@ComponentScan
 @RunWith(SpringJUnit4ClassRunner.class)//测试运行器
 @ContextConfiguration(classes = CDPlayerConfig.class)//配置加载
 public class CDPlayerTest {
 
-    @Test
     @Bean
     public ready ready() {
         return new ready();
@@ -35,6 +35,7 @@ public class CDPlayerTest {
 
     @Test
     public void cdShouldNotBeNull() {
+        cd.play();
         assertNotNull(cd);
     }
 
