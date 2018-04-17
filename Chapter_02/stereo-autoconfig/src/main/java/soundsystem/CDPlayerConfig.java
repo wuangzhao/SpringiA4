@@ -9,8 +9,4 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 public class CDPlayerConfig {
 
-    @Bean
-    public CDAspect cdAspect(){
-        return new CDAspect();
-    }
 }

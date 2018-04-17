@@ -24,8 +24,7 @@ public class CDPlayerTest {
     @Rule
     public final StandardOutputStreamLog log = new StandardOutputStreamLog();
 
-    @Autowired
-    private CDAspect cdAspect;
+
 
     @Autowired//自动装配
     private MediaPlayer player;
@@ -33,11 +32,6 @@ public class CDPlayerTest {
     @Autowired
     private CompactDisc cd;
 
-
-    @Test
-    public void aspect(){
-        cdAspect.poontcd();
-    }
 
     @Test
     public void cdShouldNotBeNull() {

@@ -58,8 +58,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="cglib:cglib:3.2.6" level="project" />
-    <orderEntry type="library" name="aspectj:aspectjweaver:1.5.3" level="project" />
-    <orderEntry type="library" name="org.springframework.boot:spring-boot-test:2.0.1.RELEASE" level="project" />
   </component>
 </module>
