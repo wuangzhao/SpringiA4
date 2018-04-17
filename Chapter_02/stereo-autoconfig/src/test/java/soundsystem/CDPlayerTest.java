@@ -14,24 +14,30 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@EnableAspectJAutoProxy
-@ComponentScan
+
+
 @RunWith(SpringJUnit4ClassRunner.class)//测试运行器
 @ContextConfiguration(classes = CDPlayerConfig.class)//配置加载
 public class CDPlayerTest {
 
-    @Bean
-    public ready ready() {
-        return new ready();
-    }
+
     @Rule
     public final StandardOutputStreamLog log = new StandardOutputStreamLog();
+
+    @Autowired
+    private CDAspect cdAspect;
 
     @Autowired//自动装配
     private MediaPlayer player;
 
     @Autowired
     private CompactDisc cd;
+
+
+    @Test
+    public void aspect(){
+        cdAspect.poontcd();
+    }
 
     @Test
     public void cdShouldNotBeNull() {
