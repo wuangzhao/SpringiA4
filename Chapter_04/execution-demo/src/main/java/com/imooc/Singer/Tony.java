@@ -2,10 +2,10 @@ package com.imooc.Singer;
 
 import org.springframework.stereotype.Component;
 
+@Component
 public class Tony implements someone {
 
-    @Override
     public void sing() {
-        System.out.println("i'm tony");
+        System.out.println("sing");
     }
 }

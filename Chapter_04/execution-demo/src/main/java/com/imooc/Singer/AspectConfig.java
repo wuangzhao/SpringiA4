@@ -9,8 +9,9 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 @ComponentScan
 public class AspectConfig {
+
     @Bean
-    public Tony tony() {
+    public Tony tony(){
         return new Tony();
     }
 
