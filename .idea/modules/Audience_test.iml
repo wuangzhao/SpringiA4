@@ -8,9 +8,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../Chapter_04/Audience/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../Chapter_04/Audience/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../Chapter_04/Audience/src/test/java" isTestSource="true" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../Chapter_04/Audience/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Audience_main" />
