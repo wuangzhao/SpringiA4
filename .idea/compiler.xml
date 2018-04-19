@@ -24,6 +24,8 @@
       <module name="profiles_test" target="1.8" />
       <module name="scopedbeans_main" target="1.8" />
       <module name="scopedbeans_test" target="1.8" />
+      <module name="Spittr_main" target="1.8" />
+      <module name="Spittr_test" target="1.8" />
       <module name="stereo-autoconfig_main" target="1.8" />
       <module name="stereo-autoconfig_test" target="1.8" />
       <module name="stereo-javaconfig_main" target="1.8" />
