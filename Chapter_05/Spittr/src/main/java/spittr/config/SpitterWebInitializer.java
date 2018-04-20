@@ -17,6 +17,7 @@ public class SpitterWebInitializer extends AbstractAnnotationConfigDispatcherSer
   }
 
   @Override
+  //DispatcherServlet映射到"/"
   protected String[] getServletMappings() {
     return new String[] { "/" };
   }
