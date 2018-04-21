@@ -11,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional_main.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional_main.iml" group="conditional" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/conditional_test.iml" filepath="$PROJECT_DIR$/.idea/modules/conditional_test.iml" group="conditional" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter_04/execution-demo/execution-demo.iml" filepath="$PROJECT_DIR$/Chapter_04/execution-demo/execution-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/externals.iml" filepath="$PROJECT_DIR$/.idea/modules/externals.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/externals_main.iml" filepath="$PROJECT_DIR$/.idea/modules/externals_main.iml" group="externals" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/externals_test.iml" filepath="$PROJECT_DIR$/.idea/modules/externals_test.iml" group="externals" />
