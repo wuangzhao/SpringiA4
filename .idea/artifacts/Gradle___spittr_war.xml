@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Gradle : spittr.war">
-    <output-path>$PROJECT_DIR$/Chapter_05/Spittr/build/libs</output-path>
+    <output-path>$PROJECT_DIR$/Chapter_06/tiles/build/libs</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$/Chapter_05/Spittr" />
+      <options external-project-path="$PROJECT_DIR$/Chapter_06/tiles" />
     </properties>
     <root id="archive" name="spittr.war">
       <element id="artifact" artifact-name="Gradle : spittr.war (exploded)" />

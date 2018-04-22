@@ -26,50 +26,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_02/stereo-autoconfig" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_02/stereo-autoconfig" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_02/stereo-javaconfig" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_02/stereo-javaconfig" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_02/stereo-mixedconfig" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_02/stereo-mixedconfig" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_02/stereo-xmlconfig" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_02/stereo-xmlconfig" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_03/conditional" />
         <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
         <option name="modules">

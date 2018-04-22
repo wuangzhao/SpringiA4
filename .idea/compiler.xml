@@ -23,6 +23,14 @@
       <module name="profiles_test" target="1.8" />
       <module name="scopedbeans_main" target="1.8" />
       <module name="scopedbeans_test" target="1.8" />
+      <module name="Spittr-JSP_main" target="1.8" />
+      <module name="Spittr-JSP_test" target="1.8" />
+      <module name="Spittr-Multipart_main" target="1.8" />
+      <module name="Spittr-Multipart_test" target="1.8" />
+      <module name="Spittr-Thymeleaf_main" target="1.8" />
+      <module name="Spittr-Thymeleaf_test" target="1.8" />
+      <module name="Spittr-Tiles_main" target="1.8" />
+      <module name="Spittr-Tiles_test" target="1.8" />
       <module name="Spittr_main" target="1.8" />
       <module name="Spittr_test" target="1.8" />
       <module name="stereo-autoconfig_main" target="1.8" />
