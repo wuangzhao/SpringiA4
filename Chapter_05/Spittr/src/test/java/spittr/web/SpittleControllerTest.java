@@ -66,7 +66,7 @@ public class SpittleControllerTest {
     SpittleController controller = new SpittleController(mockRepository);
     MockMvc mockMvc = standaloneSetup(controller).build();
 
-    mockMvc.perform(get("/spittles/12345"))
+    mockMvc.perform(get("/spittles/12345"))//通过路径请求资源
       .andExpect(view().name("spittle"))
       .andExpect(model().attributeExists("spittle"))
       .andExpect(model().attribute("spittle", expectedSpittle));
@@ -89,7 +89,7 @@ public class SpittleControllerTest {
   }
   
   private List<Spittle> createSpittleList(int count) {
-    List<Spittle> spittles = new ArrayList<Spittle>();
+    List<Spittle> spittles = new ArrayList<>();
     for (int i=0; i < count; i++) {
       spittles.add(new Spittle("Spittle " + i, new Date()));
     }
