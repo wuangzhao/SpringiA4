@@ -58,6 +58,11 @@ public class SpittleControllerTest {
                         hasItems(expectedSpittles.toArray())));
     }
 
+    /**
+     * 对/spittles/12345发起GET请求，然后断言识图的名称是spittle
+     * 并且预期的Spittle对象放到了模型中
+     * @throws Exception
+     */
     @Test
     public void testSpittle() throws Exception {
         Spittle expectedSpittle = new Spittle("Hello", new Date());

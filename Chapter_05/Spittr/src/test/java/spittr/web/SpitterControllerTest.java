@@ -14,21 +14,28 @@ import spittr.web.SpitterController;
 
 public class SpitterControllerTest {
 
+    /**
+     * 因为视图名为registerForm所以
+     * jsp的名称需要是registerForm.jsp
+     * 这个JSP必须包含一个HTML<form>标签
+     * 在这个标签中用户输入注册应用的信息
+     * @throws Exception
+     */
     @Test
     public void shouldShowRegistration() throws Exception {
         SpitterRepository mockRepository = mock(SpitterRepository.class);
         SpitterController controller = new SpitterController(mockRepository);
-        MockMvc mockMvc = standaloneSetup(controller).build();
+        MockMvc mockMvc = standaloneSetup(controller).build();//构建MockMVC
         mockMvc.perform(get("/spitter/register"))
-                .andExpect(view().name("registerForm"));
+                .andExpect(view().name("registerForm"));//断言registerForm视图
     }
 
     @Test
     public void shouldProcessRegistration() throws Exception {
-        SpitterRepository mockRepository = mock(SpitterRepository.class);
+        SpitterRepository mockRepository = mock(SpitterRepository.class);//构建Repository
         Spitter unsaved = new Spitter("jbauer", "24hours", "Jack", "Bauer", "jbauer@ctu.gov");
         Spitter saved = new Spitter(24L, "jbauer", "24hours", "Jack", "Bauer", "jbauer@ctu.gov");
-        when(mockRepository.save(unsaved)).thenReturn(saved);
+        when(mockRepository.save(unsaved)).thenReturn(saved);//检验保存情况
 
         SpitterController controller = new SpitterController(mockRepository);
         MockMvc mockMvc = standaloneSetup(controller).build();

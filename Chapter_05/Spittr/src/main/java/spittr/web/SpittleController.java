@@ -41,6 +41,20 @@ public class SpittleController {
         return spittleRepository.findSpittles(max, count);
     }
 
+    /**
+     * 允许在@RequestMapping的路径中添加占位符
+     * 占位符的名称要用大括号("{"和"}")括起来。
+     * 路径中的其他部分要与所处理的请求完全匹配
+     * 但是占位符部分可以是任意值
+     *
+     * @PathVariable("spittleId")注解
+     * 这表明在请求路径中，不管占位符部分的值是什么都会传递到处理器方法的spittleId参数中、
+     * 如果对"/spittles/54321"发送GET请求，那么将会把"54321"传递进来，作为spittleId的值
+     *
+     * @param spittleId
+     * @param model
+     * @return
+     */
     @RequestMapping(value = "/{spittleId}", method = RequestMethod.GET)
     public String spittle(
             @PathVariable("spittleId") long spittleId,
@@ -48,6 +62,20 @@ public class SpittleController {
         model.addAttribute(spittleRepository.findOne(spittleId));
         return "spittle";
     }
+
+//    /**
+//     * 因为方法名相同所以可以去掉@PathVariable中的value属性
+//     * 如果没有value属性的话，它会假设占位符的名称与方法的参数名相同
+//     * @param spittleId
+//     * @param model
+//     * @return
+//     */
+//    @RequestMapping(value = "/{spittleId}", method = RequestMethod.GET)
+//    public String spittle_( @PathVariable long spittleId,
+//            Model model) {
+//        model.addAttribute(spittleRepository.findOne(spittleId));
+//        return "spittle";
+//    }
 
     @RequestMapping(method = RequestMethod.POST)
     public String saveSpittle(SpittleForm form, Model model) {

@@ -9,6 +9,9 @@
   <body>
     <h1>Register</h1>
 
+    <!-form标签没有设置action属性，这种情况下，当表格提交时，它会提交到与展示时相同的URL路径上-->
+    <!-也就是说它会提交到"/spitter/register"-->
+    <!-这就意味着需要在服务器端处理该HTTP POST请求-->
     <form method="POST">
       First Name: <input type="text" name="firstName" /><br/>
       Last Name: <input type="text" name="lastName" /><br/>
