@@ -8,5 +8,4 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @ComponentScan//组件扫描
 @EnableAspectJAutoProxy
 public class CDPlayerConfig {
-
 }
