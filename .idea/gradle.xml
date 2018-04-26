@@ -14,26 +14,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_02/stereo-autoconfig" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_02/stereo-autoconfig" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_02/stereo-javaconfig" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_02/stereo-javaconfig" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_04/lAspect" />
         <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
         <option name="modules">

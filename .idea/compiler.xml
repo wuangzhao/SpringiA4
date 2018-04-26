@@ -10,5 +10,11 @@
         <module name="execution-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stereo-autoconfig_main" target="1.8" />
+      <module name="stereo-autoconfig_test" target="1.8" />
+      <module name="stereo-javaconfig_main" target="1.8" />
+      <module name="stereo-javaconfig_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
