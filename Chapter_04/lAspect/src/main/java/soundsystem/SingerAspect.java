@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class SingerAspect {
-    @Pointcut("execution(* soundsystem.Tony.singing(..))")
+    @Pointcut("execution(* soundsystem.Singer.singing(..))")
     public void pointcut(){}
 
 //    @Around("pointcut()")
