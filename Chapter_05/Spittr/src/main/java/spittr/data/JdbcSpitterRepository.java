@@ -10,9 +10,11 @@ import org.springframework.stereotype.Repository;
 
 import spittr.Spitter;
 
+//@Repository用于标注数据访问组件，即DAO组件
 @Repository
 public class JdbcSpitterRepository implements SpitterRepository {
-  
+
+  //Jdbc操作
   private JdbcOperations jdbc;
 
   @Autowired
