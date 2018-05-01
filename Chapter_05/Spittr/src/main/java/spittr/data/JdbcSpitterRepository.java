@@ -14,43 +14,43 @@ import spittr.Spitter;
 @Repository
 public class JdbcSpitterRepository implements SpitterRepository {
 
-  //Jdbc操作
-  private JdbcOperations jdbc;
+    //Jdbc操作
+    private JdbcOperations jdbc;
 
-  @Autowired
-  public JdbcSpitterRepository(JdbcOperations jdbc) {
-    this.jdbc = jdbc;
-  }
-
-  public Spitter save(Spitter spitter) {
-    jdbc.update(
-        "insert into Spitter (username, password, first_name, last_name, email)" +
-        " values (?, ?, ?, ?, ?)",
-        spitter.getUsername(),
-        spitter.getPassword(),
-        spitter.getFirstName(),
-        spitter.getLastName(),
-        spitter.getEmail());
-    return spitter; // TODO: Determine value for id
-  }
-
-  public Spitter findByUsername(String username) {
-    return jdbc.queryForObject(
-        "select id, username, null, first_name, last_name, email from Spitter where username=?", 
-        new SpitterRowMapper(), 
-        username);
-  }
-  
-  private static class SpitterRowMapper implements RowMapper<Spitter> {
-    public Spitter mapRow(ResultSet rs, int rowNum) throws SQLException {
-      return new Spitter(
-          rs.getLong("id"),
-          rs.getString("username"),
-          null,
-          rs.getString("first_name"),
-          rs.getString("last_name"),
-          rs.getString("email"));
+    @Autowired
+    public JdbcSpitterRepository(JdbcOperations jdbc) {
+        this.jdbc = jdbc;
     }
-  }
+
+    public Spitter save(Spitter spitter) {
+        jdbc.update(
+                "insert into Spitter (username, password, first_name, last_name, email)" +
+                        " values (?, ?, ?, ?, ?)",
+                spitter.getUsername(),
+                spitter.getPassword(),
+                spitter.getFirstName(),
+                spitter.getLastName(),
+                spitter.getEmail());
+        return spitter; // TODO: Determine vDetermine alue for id
+    }
+
+    public Spitter findByUsername(String username) {
+        return jdbc.queryForObject(
+                "select id, username, null, first_name, last_name, email from Spitter where username=?",
+                new SpitterRowMapper(),
+                username);
+    }
+
+    private static class SpitterRowMapper implements RowMapper<Spitter> {
+        public Spitter mapRow(ResultSet rs, int rowNum) throws SQLException {
+            return new Spitter(
+                    rs.getLong("id"),
+                    rs.getString("username"),
+                    null,
+                    rs.getString("first_name"),
+                    rs.getString("last_name"),
+                    rs.getString("email"));
+        }
+    }
 
 }

@@ -5,21 +5,21 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import spittr.web.WebConfig;
 
 public class SpitterWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-  
-  @Override
-  protected Class<?>[] getRootConfigClasses() {
-    return new Class<?>[] { RootConfig.class };
-  }
 
-  @Override
-  protected Class<?>[] getServletConfigClasses() {
-    return new Class<?>[] { WebConfig.class };
-  }
+    @Override
+    protected Class<?>[] getRootConfigClasses() {
+        return new Class<?>[]{RootConfig.class};
+    }
 
-  @Override
-  //DispatcherServlet映射到"/"
-  protected String[] getServletMappings() {
-    return new String[] { "/" };
-  }
+    @Override
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class<?>[]{WebConfig.class};
+    }
+
+    @Override
+    //DispatcherServlet映射到"/"
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
 
 }

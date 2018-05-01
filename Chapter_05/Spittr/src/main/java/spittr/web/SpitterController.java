@@ -23,6 +23,7 @@ public class SpitterController {
 
     /**
      * 注入SpitterRepository
+     *
      * @param spitterRepository
      */
     @Autowired

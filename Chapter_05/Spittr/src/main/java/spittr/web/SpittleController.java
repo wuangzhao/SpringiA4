@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import spittr.Spittle;
 import spittr.data.SpittleRepository;
 
+//在模型中放入最新的spittle列表
 @Controller
 @RequestMapping("/spittles")
 public class SpittleController {
@@ -22,6 +23,7 @@ public class SpittleController {
 
     private SpittleRepository spittleRepository;
 
+    //注入SpittleRepository
     @Autowired
     public SpittleController(SpittleRepository spittleRepository) {
         this.spittleRepository = spittleRepository;
@@ -47,13 +49,11 @@ public class SpittleController {
      * 路径中的其他部分要与所处理的请求完全匹配
      * 但是占位符部分可以是任意值
      *
-     * @PathVariable("spittleId")注解
-     * 这表明在请求路径中，不管占位符部分的值是什么都会传递到处理器方法的spittleId参数中、
-     * 如果对"/spittles/54321"发送GET请求，那么将会把"54321"传递进来，作为spittleId的值
-     *
      * @param spittleId
      * @param model
      * @return
+     * @PathVariable("spittleId")注解 这表明在请求路径中，不管占位符部分的值是什么都会传递到处理器方法的spittleId参数中、
+     * 如果对"/spittles/54321"发送GET请求，那么将会把"54321"传递进来，作为spittleId的值
      */
     @RequestMapping(value = "/{spittleId}", method = RequestMethod.GET)
     public String spittle(

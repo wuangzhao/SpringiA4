@@ -14,17 +14,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_04/lAspect" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Chapter_04/lAspect" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_05/Spittr" />
         <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
         <option name="modules">
@@ -32,6 +21,17 @@
             <option value="$PROJECT_DIR$/Chapter_05/Spittr" />
           </set>
         </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_06/jsp" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter_06/jsp" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
   </component>

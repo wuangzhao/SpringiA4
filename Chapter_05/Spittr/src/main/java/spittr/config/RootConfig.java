@@ -13,15 +13,15 @@ import spittr.config.RootConfig.WebPackage;
 
 @Configuration
 @Import(DataConfig.class)
-@ComponentScan(basePackages={"spittr"}, 
-    excludeFilters={
-        //@Filter 过滤
-        @Filter(type=FilterType.CUSTOM, value=WebPackage.class)
-    })
+@ComponentScan(basePackages = {"spittr"},
+        excludeFilters = {
+                //@Filter 过滤
+                @Filter(type = FilterType.CUSTOM, value = WebPackage.class)
+        })
 public class RootConfig {
-  public static class WebPackage extends RegexPatternTypeFilter {
-    public WebPackage() {
-      super(Pattern.compile("spittr\\.web"));
-    }    
-  }
+    public static class WebPackage extends RegexPatternTypeFilter {
+        public WebPackage() {
+            super(Pattern.compile("spittr\\.web"));
+        }
+    }
 }

@@ -11,6 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lAspect_main" target="1.8" />
+      <module name="lAspect_test" target="1.8" />
       <module name="stereo-autoconfig_main" target="1.8" />
       <module name="stereo-autoconfig_test" target="1.8" />
       <module name="stereo-javaconfig_main" target="1.8" />
