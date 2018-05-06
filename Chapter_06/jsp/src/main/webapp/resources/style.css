@@ -36,6 +36,10 @@ label.error {
 	color: red;
 }
 
+span.error {
+	color: red;
+}
+
 input.error {
 	background-color: #ffcccc;
 }

@@ -17,32 +17,41 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan("spittr.web")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
-  @Bean
-  public ViewResolver viewResolver() {
-    InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-    resolver.setPrefix("/WEB-INF/views/");
-    resolver.setSuffix(".jsp");
-    return resolver;
-  }
-  
-  @Override
-  public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-    configurer.enable();
-  }
-  
-  @Override
-  public void addResourceHandlers(ResourceHandlerRegistry registry) {
-    // TODO Auto-generated method stub
-    super.addResourceHandlers(registry);
-  }
-  
-  @Bean
-  public MessageSource messageSource() {
-    ReloadableResourceBundleMessageSource messageSource = 
-        new ReloadableResourceBundleMessageSource();
-    messageSource.setBasename("file:///Users/habuma/messages");
-    messageSource.setCacheSeconds(10);
-    return messageSource;
-  }
- 
+    @Bean
+    public ViewResolver viewResolver() {
+        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+        resolver.setPrefix("/WEB-INF/views/");
+        resolver.setSuffix(".jsp");
+        return resolver;
+    }
+
+    @Override
+    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+        configurer.enable();
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        // TODO Auto-generated method stub
+        super.addResourceHandlers(registry);
+    }
+
+
+//    @Bean
+//    public MessageSource messageSource(){
+//        ResourceBundleMessageSource messageSource =
+//                new ResourceBundleMessageSource();
+//        messageSource.setBasename("messages");
+//        return messageSource;
+//    }
+
+    @Bean
+    public MessageSource messageSource() {
+        ReloadableResourceBundleMessageSource messageSource =
+                new ReloadableResourceBundleMessageSource();
+        messageSource.setBasename("messages");
+        messageSource.setCacheSeconds(10);
+        return messageSource;
+    }
+
 }
