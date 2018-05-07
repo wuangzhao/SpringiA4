@@ -62,7 +62,7 @@ public class SpitterController {
     Spitter spitter = spitterForm.toSpitter();
     spitterRepository.save(spitter);
     MultipartFile profilePicture = spitterForm.getProfilePicture();
-    profilePicture.transferTo(new File("/tmp/spittr/" + spitter.getUsername() + ".jpg"));
+    profilePicture.transferTo(new File("D:\\Temp\\spittr\\" + spitter.getUsername() + ".jpg"));
     return "redirect:/spitter/" + spitter.getUsername();
   }
   

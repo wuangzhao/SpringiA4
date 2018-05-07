@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
@@ -24,11 +25,32 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_06/thymeleaf" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter_06/thymeleaf" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_06/tiles" />
         <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Chapter_06/tiles" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter_07/Spittr" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-4.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter_07/Spittr" />
           </set>
         </option>
       </GradleProjectSettings>
