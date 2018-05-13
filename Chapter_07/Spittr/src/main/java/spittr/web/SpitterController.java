@@ -63,7 +63,7 @@ public class SpitterController {
     spitterRepository.save(spitter);
     MultipartFile profilePicture = spitterForm.getProfilePicture();
     profilePicture.transferTo(new File("D:\\Temp\\spittr\\" + spitter.getUsername() + ".jpg"));
-    return "redirect:/spitter/" + spitter.getUsername();
+    return "rediret:/spitter/" + spitter.getUsername();
   }
   
   @RequestMapping(value="/{username}", method=GET)
